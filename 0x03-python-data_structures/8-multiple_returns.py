@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def max_integer(my_list=[]):
-    my_list.sort()
-    if my_list == []:
-        return None
+def multiple_returns(sentence):
+    length = len(sentence)
+    if length == 0:
+        return length, None
     else:
-        return my_list[-1]
+        return length, sentence[0]
