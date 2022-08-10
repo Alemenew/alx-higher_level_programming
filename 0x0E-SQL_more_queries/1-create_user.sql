@@ -1,9 +1,2 @@
--- Creates the user user_0d_1 with all privileges.
-CREATE USER
-    IF NOT EXISTS 'user_0d_1'@'localhost'
-    IDENTIFIED BY 'user_0d_1_pwd';
-GRANT ALL PRIVILEGES
-   ON *.*
-   TO 'user_0d_1'@'localhost'
-   IDENTIFIED BY 'user_0d_1_pwd';
-FLUSH PRIVILEGES;
+-- creates the database hbtn_0c_0 in my MySQL server.
+CREATE DATABASE IF NOT EXISTS `hbtn_0c_0`;
